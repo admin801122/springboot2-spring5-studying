@@ -1,0 +1,5 @@
+com\aop\MyBeanNameSpringBootApplication.class
+com\aop\beanNameAutoProxyCreator\BeanNameAutoProxyCreatorConfig.class
+com\aop\beanNameAutoProxyCreator\NameMatchMethodPointcutAdvisorConfig.class
+com\aop\beanNameAutoProxyCreator\MyController.class
+com\aop\beanNameAutoProxyCreator\MyMethodInterceptor.class

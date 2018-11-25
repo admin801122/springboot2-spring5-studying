@@ -1,0 +1,6 @@
+com\aop\myDefaultAdvisor1\MyMethodInterceptor.class
+com\aop\myDefaultAdvisor1\MyStaticMethodAdvisorConfig.class
+com\aop\myDefaultAdvisor1\DefaultAdvisorAutoProxyCreatorConfig.class
+com\aop\myDefaultAdvisor1\MyController.class
+com\aop\myDefaultAdvisor1\MyStaticMethodPointcutAdvisor.class
+com\aop\MyDefaultAdvisor1Application.class

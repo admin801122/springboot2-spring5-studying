@@ -1,0 +1,5 @@
+com\aop\MyDefaultAdvisor2Application.class
+com\aop\myDefaultAdvisor2\RegexpMethodPointcutAdvisorConfig.class
+com\aop\myDefaultAdvisor2\DefaultAdvisorAutoProxyCreatorConfig.class
+com\aop\myDefaultAdvisor2\MyController.class
+com\aop\myDefaultAdvisor2\MyMethodInterceptor.class

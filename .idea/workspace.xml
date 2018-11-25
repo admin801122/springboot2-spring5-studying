@@ -1,0 +1,1078 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ae4e7594-cf1b-43d4-953e-2afc9d92a4d5" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/aop-annotation/target/" />
+    <ignored path="$PROJECT_DIR$/aop-cglib/target/" />
+    <ignored path="$PROJECT_DIR$/aop-proxyFactory/target/" />
+    <ignored path="$PROJECT_DIR$/aop-beanNameAutoProxyCreator/target/" />
+    <ignored path="$PROJECT_DIR$/aop-proxyFactory/aop-staticMethodPointcutAdvisor/target/" />
+    <ignored path="$PROJECT_DIR$/aop-staticMethodPointcutAdvisor/target/" />
+    <ignored path="$PROJECT_DIR$/aop-defaultAdvisorAutoProxyCreator/target/" />
+    <ignored path="$PROJECT_DIR$/aop-defaultAdvisorAutoProxyCreator-1/target/" />
+    <ignored path="$PROJECT_DIR$/aop-annotationAwareAspectJAutoProxyCreator/target/" />
+    <ignored path="$PROJECT_DIR$/aop-defaultAdvisorAutoProxyCreator-2/target/" />
+    <ignored path="$PROJECT_DIR$/aop-defaultPointcutAdvisor/target/" />
+    <ignored path="$PROJECT_DIR$/aop-annotationAwareAspectJAutoProxyCreator/aop-annotationAwareAspectJAutoProxyCreator1/target/" />
+    <ignored path="$PROJECT_DIR$/aop-annotationAwareAspectJAutoProxyCreator1/target/" />
+    <ignored path="$PROJECT_DIR$/aop-staticMethodPointcutAdvisor/ioc-circularDependencies/target/" />
+    <ignored path="$PROJECT_DIR$/ioc-circularDependencies/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>com.springboot2.spring5.cglib.</find>
+      <find>cglibProxyTest</find>
+      <find>requestMappingHandlerAdapter</find>
+      <find>myStaticMethodPointcutAdvisor</find>
+      <find>selectImports</find>
+      <find>findCandidateAdvisors</find>
+      <find>getMatchingBeans</find>
+      <find>beanTypes</find>
+      <find>beanDefinitionMap</find>
+      <find>beanDefinitionNames.add</find>
+      <find>manualSingletonNames</find>
+      <find>manualSingletonNames.add</find>
+      <find>beanDefinitionMap.put</find>
+      <find>myNameMatchMethodPointcutAdvisor</find>
+      <find>beanMethods</find>
+      <find>beanDefinitionNames</find>
+      <find>getInPriorityOrder</find>
+      <find>interceptorNames</find>
+      <find>getAdvicesAndAdvisorsForBean</find>
+      <find>findEligibleAdvisors</find>
+      <find>DEFAULT_PRECEDENCE_COMPARATOR</find>
+      <find>matches</find>
+      <find>getMethodMatcher</find>
+      <find>parent.relativePath</find>
+      <find>aop-proxyFactory</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/aop-staticMethodPointcutAdvisor/src/main/java/com/aop/MyStaticMethodSpringBootApplication.java" />
+        <option value="$PROJECT_DIR$/aop-staticMethodPointcutAdvisor/src/main/java/com/aop/staticMethod/MyStaticMethodPointcutAdvisor.java" />
+        <option value="$PROJECT_DIR$/aop-defaultAdvisorAutoProxyCreator/src/main/java/com/aop/MyDefaultAdvisorApplication.java" />
+        <option value="$PROJECT_DIR$/aop-defaultAdvisorAutoProxyCreator/src/main/java/com/aop/myDefaultAdvisor/MyDefaultAdvisorApplication.java" />
+        <option value="$PROJECT_DIR$/aop-defaultAdvisorAutoProxyCreator/src/main/java/com/aop/myDefaultAdvisor/MyDefaultAdvisorConfig.java" />
+        <option value="$PROJECT_DIR$/aop-defaultAdvisorAutoProxyCreator/src/main/java/com/aop/myDefaultAdvisor/MyStaticMethodPointcutAdvisor.java" />
+        <option value="$PROJECT_DIR$/aop-defaultAdvisorAutoProxyCreator/src/main/java/com/aop/myDefaultAdvisor/MyStaticMethodAdvisorConfig.java" />
+        <option value="$PROJECT_DIR$/aop-defaultAdvisorAutoProxyCreator/pom.xml" />
+        <option value="$PROJECT_DIR$/aop-defaultAdvisorAutoProxyCreator-1/src/main/java/com/aop/MyDefaultAdvisor1Application.java" />
+        <option value="$PROJECT_DIR$/aop-defaultAdvisorAutoProxyCreator-2/src/main/java/com/aop/MyDefaultAdvisor2Application.java" />
+        <option value="$PROJECT_DIR$/aop-defaultAdvisorAutoProxyCreator-2/src/main/java/com/aop/MyStaticMethodInterceptor.java" />
+        <option value="$PROJECT_DIR$/aop-cglib/src/main/java/com/aop/MyMethodInterceptor.java" />
+        <option value="$PROJECT_DIR$/aop-defaultAdvisorAutoProxyCreator-2/src/main/java/com/aop/MyStaticMethodAdvisorConfig.java" />
+        <option value="$PROJECT_DIR$/aop-defaultAdvisorAutoProxyCreator-2/src/main/java/com/aop/MyRegexpMethodPointcutAdvisor.java" />
+        <option value="$PROJECT_DIR$/aop-defaultAdvisorAutoProxyCreator-2/src/main/java/com/aop/MyRegexpMethodPointcutAdvisorConfig.java" />
+        <option value="$PROJECT_DIR$/aop-defaultAdvisorAutoProxyCreator-2/src/main/java/com/aop/myDefaultAdvisor2/MyMethodInterceptor.java" />
+        <option value="$PROJECT_DIR$/aop-defaultAdvisorAutoProxyCreator-2/src/main/java/com/aop/myDefaultAdvisor2/MyRegexpMethodPointcutAdvisorConfig.java" />
+        <option value="$PROJECT_DIR$/aop-defaultPointcutAdvisor/src/main/java/com/aop/defaultAdvisor/MyDefaultAdvisorConfig.java" />
+        <option value="$PROJECT_DIR$/aop-defaultPointcutAdvisor/src/main/java/com/aop/MyDefaultAdvisorApplication.java" />
+        <option value="$PROJECT_DIR$/aop-defaultAdvisorAutoProxyCreator-2/src/main/java/com/aop/myDefaultAdvisor2/DefaultAdvisorAutoProxyCreatorConfig.java" />
+        <option value="$PROJECT_DIR$/aop-defaultPointcutAdvisor/src/main/java/com/aop/defaultAdvisor/DefaultAdvisorAutoProxyCreatorConfig.java" />
+        <option value="$PROJECT_DIR$/aop-defaultPointcutAdvisor/src/main/java/com/aop/defaultAdvisor/DefaultPointcutAdvisorConfig.java" />
+        <option value="$PROJECT_DIR$/aop-beanNameAutoProxyCreator/src/main/java/com/aop/beanNameAutoProxyCreator/NameMatchMethodPointcutAdvisorConfig.java" />
+        <option value="$PROJECT_DIR$/aop-defaultAdvisorAutoProxyCreator-2/src/main/java/com/aop/myDefaultAdvisor2/RegexpMethodPointcutAdvisorConfig.java" />
+        <option value="$PROJECT_DIR$/aop-beanNameAutoProxyCreator/src/main/java/com/aop/beanNameAutoProxyCreator/Test/ConfigurationB.java" />
+        <option value="$PROJECT_DIR$/aop-beanNameAutoProxyCreator/src/main/java/com/aop/beanNameAutoProxyCreator/Test/Bean2.java" />
+        <option value="$PROJECT_DIR$/aop-beanNameAutoProxyCreator/src/main/java/com/aop/beanNameAutoProxyCreator/BeanNameAutoProxyCreatorConfig.java" />
+        <option value="$PROJECT_DIR$/aop-beanNameAutoProxyCreator/src/main/java/com/aop/beanNameAutoProxyCreator/Test/Congiruation3.java" />
+        <option value="$PROJECT_DIR$/aop-beanNameAutoProxyCreator/src/main/java/com/aop/beanNameAutoProxyCreator/Test/Configuration2.java" />
+        <option value="$PROJECT_DIR$/aop-beanNameAutoProxyCreator/src/main/java/com/aop/beanNameAutoProxyCreator/Test/Configuration1.java" />
+        <option value="$PROJECT_DIR$/aop-staticMethodPointcutAdvisor/src/main/java/com/aop/staticMethod/BeanNameAutoProxyCreatorConfig.java" />
+        <option value="$PROJECT_DIR$/aop-staticMethodPointcutAdvisor/pom.xml" />
+        <option value="$PROJECT_DIR$/aop-annotationAwareAspectJAutoProxyCreator/pom.xml" />
+        <option value="$PROJECT_DIR$/aop-annotationAwareAspectJAutoProxyCreator1/src/main/java/LogableAspect.java" />
+        <option value="$PROJECT_DIR$/aop-annotationAwareAspectJAutoProxyCreator1/src/main/java/MyController.java" />
+        <option value="$PROJECT_DIR$/aop-annotationAwareAspectJAutoProxyCreator1/src/main/java/MyAnnotationService.java" />
+        <option value="$PROJECT_DIR$/aop-annotationAwareAspectJAutoProxyCreator1/src/main/java/com/aop/AnnotationSpringBootApplication.java" />
+        <option value="$PROJECT_DIR$/aop-annotationAwareAspectJAutoProxyCreator1/src/main/java/com/aop/annotation/LogableAspect.java" />
+        <option value="$PROJECT_DIR$/aop-annotationAwareAspectJAutoProxyCreator1/src/main/java/com/aop/annotation/IService.java" />
+        <option value="$PROJECT_DIR$/aop-annotationAwareAspectJAutoProxyCreator1/src/main/java/com/aop/annotation/MyController.java" />
+        <option value="$PROJECT_DIR$/aop-annotationAwareAspectJAutoProxyCreator1/src/main/java/com/aop/annotation/MyAnnotationService.java" />
+        <option value="$PROJECT_DIR$/aop-annotationAwareAspectJAutoProxyCreator1/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/ioc-circularDependencies/src/main/java/com/ioc/circular/CircularSpringBootApplication.java" />
+        <option value="$PROJECT_DIR$/ioc-circularDependencies/src/main/java/com/ioc/circular/ServiceA.java" />
+        <option value="$PROJECT_DIR$/ioc-circularDependencies/src/main/java/com/ioc/circular/ServiceB.java" />
+        <option value="$PROJECT_DIR$/ioc-circularDependencies/src/main/java/com/ioc/circular/ServiceC.java" />
+        <option value="$PROJECT_DIR$/ioc-circularDependencies/src/main/java/com/ioc/circular/Service3.java" />
+        <option value="$PROJECT_DIR$/ioc-circularDependencies/src/main/java/com/ioc/circular/Service2.java" />
+        <option value="$PROJECT_DIR$/ioc-circularDependencies/src/main/java/com/ioc/circular/Service1.java" />
+        <option value="$PROJECT_DIR$/ioc-circularDependencies/src/main/java/com/ioc/CircularSpringBootApplication.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\zsk\repository" />
+        <option name="userSettingsFile" value="D:\zsk\apache-maven\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="springboot2-spring5-studying" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="springboot2-spring5-studying" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-1929" />
+    <option name="y" value="111" />
+    <option name="width" value="1938" />
+    <option name="height" value="1098" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Correctness</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Performance</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Security</id>
+          </State>
+          <State>
+            <id>Android Lint for Kotlin</id>
+          </State>
+          <State>
+            <id>Compiler issuesJava</id>
+          </State>
+          <State>
+            <id>Cucumber</id>
+          </State>
+          <State>
+            <id>GPath inspectionsGroovy</id>
+          </State>
+          <State>
+            <id>Google Web Toolkit issues</id>
+          </State>
+          <State>
+            <id>GrailsGroovy</id>
+          </State>
+          <State>
+            <id>Groovy</id>
+          </State>
+          <State>
+            <id>Internationalization issuesJava</id>
+          </State>
+          <State>
+            <id>JPA issues</id>
+          </State>
+          <State>
+            <id>JSON</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Kotlin</id>
+          </State>
+          <State>
+            <id>Performance issuesJava</id>
+          </State>
+          <State>
+            <id>Play</id>
+          </State>
+          <State>
+            <id>Properties Files</id>
+          </State>
+          <State>
+            <id>Properties FilesJava</id>
+          </State>
+          <State>
+            <id>Spring</id>
+          </State>
+          <State>
+            <id>Spring BootSpring</id>
+          </State>
+          <State>
+            <id>Thymeleaf</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Android</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="springboot2-spring5-studying" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot2-spring5-studying" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SearchEverywhereHistoryKey" value="default&#9;FILE&#9;file://C:/Users/zhangshukang/Desktop/springboot2-spring5-studying/aop-defaultPointcutAdvisor/src/main/java/com/aop/defaultAdvisor/DefaultAdvisorAutoProxyCreatorConfig.java" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="D:/zsk/workspace2" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.aop" />
+      <recent name="com.aop.myDefaultAdvisor" />
+      <recent name="com.aop.staticMethod" />
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\zhangshukang\Desktop\springboot2-spring5-studying\aop-annotationAwareAspectJAutoProxyCreator1\src\main\java\com\aop\annotation" />
+      <recent name="C:\Users\zhangshukang\Desktop\springboot2-spring5-studying\aop-annotationAwareAspectJAutoProxyCreator1\src\main\java" />
+      <recent name="C:\Users\zhangshukang\Desktop\springboot2-spring5-studying\aop-annotationAwareAspectJAutoProxyCreator\src\main\java" />
+      <recent name="C:\Users\zhangshukang\Desktop\springboot2-spring5-studying\aop-defaultPointcutAdvisor\src\main\java\com\aop\defaultAdvisor" />
+      <recent name="C:\Users\zhangshukang\Desktop\springboot2-spring5-studying\aop-defaultAdvisorAutoProxyCreator-2\src\main\java\com\aop\myDefaultAdvisor2" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.CircularSpringBootApplication">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="aop-annotationAwareAspectJAutoProxyCreator" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+    </configuration>
+    <configuration name="AnnotationSpringBootApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="aop-annotationAwareAspectJAutoProxyCreator1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.aop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.aop.AnnotationSpringBootApplication" />
+    </configuration>
+    <configuration name="CircularSpringBootApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="ioc-circularDependencies" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ioc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ioc.CircularSpringBootApplication" />
+    </configuration>
+    <configuration name="MyBeanNameSpringBootApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="aop-beanNameAutoProxyCreator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.aop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.aop.MyBeanNameSpringBootApplication" />
+    </configuration>
+    <configuration name="MyDefaultAdvisorApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="aop-defaultPointcutAdvisor" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.aop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.aop.MyDefaultAdvisorApplication" />
+    </configuration>
+    <configuration name="MyStaticMethodSpringBootApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="aop-staticMethodPointcutAdvisor" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.aop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.aop.MyStaticMethodSpringBootApplication" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method />
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.MyStaticMethodSpringBootApplication" />
+      <item itemvalue="Spring Boot.MyDefaultAdvisorApplication (1)" />
+      <item itemvalue="Spring Boot.MyBeanNameSpringBootApplication" />
+      <item itemvalue="Spring Boot.AnnotationSpringBootApplication" />
+      <item itemvalue="Spring Boot.CircularSpringBootApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.CircularSpringBootApplication" />
+        <item itemvalue="Spring Boot.AnnotationSpringBootApplication" />
+        <item itemvalue="Spring Boot.MyStaticMethodSpringBootApplication" />
+        <item itemvalue="Spring Boot.MyBeanNameSpringBootApplication" />
+        <item itemvalue="Spring Boot.MyDefaultAdvisorApplication (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpringBeansView">
+    <option name="beanDetailsProportion" value="0.3" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\zhangshukang\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ae4e7594-cf1b-43d4-953e-2afc9d92a4d5" name="Default" comment="" />
+      <created>1542167363040</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1542167363040</updated>
+      <workItem from="1542167368097" duration="48289000" />
+      <workItem from="1542377980803" duration="6798000" />
+      <workItem from="1542543776449" duration="5309000" />
+      <workItem from="1542604387906" duration="2595000" />
+      <workItem from="1542716456507" duration="2917000" />
+      <workItem from="1542780822459" duration="109000" />
+      <workItem from="1542780944688" duration="8820000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="74837000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1929" y="111" width="1938" height="1098" extended-state="6" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="RestServices" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.5005365" side_tool="true" weight="0.3997955" />
+      <window_info anchor="right" id="Maven Projects" order="0" weight="0.19366953" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info id="Designer" order="3" />
+      <window_info anchor="right" id="Database" order="2" weight="0.3299356" />
+      <window_info id="Structure" order="5" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info id="UI Designer" order="0" />
+      <window_info anchor="bottom" id="Debug" order="0" weight="0.40728477" />
+      <window_info anchor="bottom" id="TODO" order="14" />
+      <window_info anchor="bottom" id="Messages" order="3" weight="0.3289183" />
+      <window_info anchor="right" id="Palette&#9;" order="1" />
+      <window_info anchor="bottom" id="Java Enterprise" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="11" sideWeight="0.49946353" weight="0.4183223" />
+      <window_info anchor="bottom" id="Spring" order="1" weight="0.3289183" />
+      <window_info anchor="bottom" id="Terminal" order="2" />
+      <window_info active="true" content_ui="combo" id="Project" order="4" visible="true" weight="0.21781115" />
+      <window_info anchor="bottom" id="Problems" order="5" />
+      <window_info anchor="right" id="Bean Validation" order="4" />
+      <window_info id="Web" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="10" weight="0.3289183" />
+      <window_info id="Favorites" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="9" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Designer" order="3" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="bottom" id="Run" order="11" sideWeight="0.49946353" weight="0.4183223" />
+      <window_info anchor="bottom" id="Spring" order="1" weight="0.3289183" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info id="UI Designer" order="0" />
+      <window_info id="Favorites" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="2" />
+      <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.5005365" side_tool="true" weight="0.3997955" />
+      <window_info anchor="bottom" id="Messages" order="3" weight="0.3289183" />
+      <window_info anchor="bottom" id="TODO" order="14" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Problems" order="5" />
+      <window_info anchor="bottom" id="Java Enterprise" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="right" id="Maven Projects" order="0" weight="0.19366953" />
+      <window_info id="Structure" order="5" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="10" weight="0.3289183" />
+      <window_info content_ui="combo" id="Project" order="4" visible="true" weight="0.21781115" />
+      <window_info anchor="right" id="Database" order="2" weight="0.3299356" />
+      <window_info anchor="bottom" id="Message" order="9" />
+      <window_info id="Web" order="2" side_tool="true" />
+      <window_info anchor="right" id="Palette&#9;" order="1" />
+      <window_info anchor="right" id="RestServices" order="3" />
+      <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Debug" order="0" visible="true" weight="0.40728477" />
+      <window_info anchor="right" id="Bean Validation" order="4" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/aop-beanNameAutoProxyCreator/src/main/java/com/aop/beanNameAutoProxyCreator/Test/Configuration1.java</url>
+          <line>18</line>
+          <properties />
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/aop-annotationAwareAspectJAutoProxyCreator1/src/main/java/com/aop/annotation/MyController.java</url>
+          <line>18</line>
+          <properties />
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/zsk/repository/org/springframework/spring-beans/5.0.5.RELEASE/spring-beans-5.0.5.RELEASE-sources.jar!/org/springframework/beans/factory/support/DefaultListableBeanFactory.java</url>
+          <line>737</line>
+          <properties />
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="94" />
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/aop-staticMethodPointcutAdvisor/src/main/java/com/aop/staticMethod/MyStaticMethodAdvisorConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aop-staticMethodPointcutAdvisor/src/main/java/com/aop/MyStaticMethodSpringBootApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aop-staticMethodPointcutAdvisor/src/main/java/com/aop/staticMethod/MyMethodInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aop-staticMethodPointcutAdvisor/src/main/java/com/aop/staticMethod/BeanNameAutoProxyCreatorConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/zsk/repository/org/springframework/spring-aop/5.0.5.RELEASE/spring-aop-5.0.5.RELEASE-sources.jar!/org/springframework/aop/framework/AdvisedSupport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="489" column="7" lean-forward="true" selection-start-line="489" selection-start-column="7" selection-end-line="489" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/zsk/repository/org/springframework/spring-aop/5.0.5.RELEASE/spring-aop-5.0.5.RELEASE-sources.jar!/org/springframework/aop/framework/DefaultAdvisorChainFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="65" column="76" lean-forward="true" selection-start-line="65" selection-start-column="76" selection-end-line="65" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/zsk/repository/org/springframework/spring-aop/5.0.5.RELEASE/spring-aop-5.0.5.RELEASE-sources.jar!/org/springframework/aop/support/MethodMatchers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="94" selection-start-line="94" selection-end-line="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/zsk/repository/org/springframework/spring-aop/5.0.5.RELEASE/spring-aop-5.0.5.RELEASE-sources.jar!/org/springframework/aop/MethodMatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-583">
+          <caret line="49" column="17" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/zsk/repository/org/springframework/spring-aop/5.0.5.RELEASE/spring-aop-5.0.5.RELEASE-sources.jar!/org/springframework/aop/support/StaticMethodMatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="27" column="57" selection-start-line="27" selection-start-column="57" selection-end-line="27" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/zsk/repository/org/springframework/spring-aop/5.0.5.RELEASE/spring-aop-5.0.5.RELEASE-sources.jar!/org/springframework/aop/support/StaticMethodMatcherPointcut.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="32" column="67" selection-start-line="32" selection-start-column="67" selection-end-line="32" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aop-defaultPointcutAdvisor/src/main/java/com/aop/MyDefaultAdvisorApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/zsk/repository/org/springframework/spring-aop/5.0.5.RELEASE/spring-aop-5.0.5.RELEASE-sources.jar!/org/springframework/aop/support/DefaultPointcutAdvisor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="40" column="46" selection-start-line="40" selection-start-column="46" selection-end-line="40" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aop-defaultPointcutAdvisor/src/main/java/com/aop/defaultAdvisor/DefaultPointcutAdvisorConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aop-staticMethodPointcutAdvisor/src/main/java/com/aop/staticMethod/MyStaticMethodPointcutAdvisor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/zsk/repository/org/springframework/spring-aop/5.0.5.RELEASE/spring-aop-5.0.5.RELEASE-sources.jar!/org/springframework/aop/support/StaticMethodMatcherPointcutAdvisor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="491">
+          <caret line="49" column="5" lean-forward="true" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+          <folding>
+            <element signature="e#1076#1103#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aop-annotationAwareAspectJAutoProxyCreator/src/main/java/MyController.java" />
+    <entry file="file://$PROJECT_DIR$/aop-annotationAwareAspectJAutoProxyCreator/src/main/java/Logable.java" />
+    <entry file="file://$PROJECT_DIR$/aop-annotationAwareAspectJAutoProxyCreator/src/main/java/LogableAspect.java" />
+    <entry file="file://$PROJECT_DIR$/aop-defaultAdvisorAutoProxyCreator-1/src/main/java/com/aop/myDefaultAdvisor1/MyController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aop-proxyFactory/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aop-staticMethodPointcutAdvisor/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aop-annotationAwareAspectJAutoProxyCreator/aop-annotationAwareAspectJAutoProxyCreator1/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aop-annotationAwareAspectJAutoProxyCreator/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aop-annotationAwareAspectJAutoProxyCreator1/src/main/java/Logable.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aop-annotationAwareAspectJAutoProxyCreator1/src/main/java/LogableAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aop-annotationAwareAspectJAutoProxyCreator1/src/main/java/MyController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="16" column="59" lean-forward="true" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aop-annotationAwareAspectJAutoProxyCreator1/src/main/java/MyAnnotationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+          <folding>
+            <element signature="e#161#162#0" expanded="true" />
+            <element signature="e#211#212#0" expanded="true" />
+            <element signature="e#271#272#0" expanded="true" />
+            <element signature="e#335#336#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aop-annotationAwareAspectJAutoProxyCreator1/src/main/java/com/aop/annotation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aop-annotationAwareAspectJAutoProxyCreator1/src/main/java/com/aop/annotation/Logable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="26" selection-start-column="8" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aop-annotationAwareAspectJAutoProxyCreator1/src/main/java/com/aop/annotation/LogableAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aop-annotationAwareAspectJAutoProxyCreator1/src/main/java/com/aop/annotation/IService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aop-annotationAwareAspectJAutoProxyCreator1/src/main/java/com/aop/AnnotationSpringBootApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+          <folding>
+            <element signature="e#1284#1285#0" expanded="true" />
+            <element signature="e#1312#1313#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aop-annotationAwareAspectJAutoProxyCreator1/src/main/java/com/aop/annotation/MyAnnotationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#301#302#0" expanded="true" />
+            <element signature="e#365#366#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aop-annotationAwareAspectJAutoProxyCreator1/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aop-annotationAwareAspectJAutoProxyCreator1/src/main/java/com/aop/annotation/MyController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="19" column="46" lean-forward="true" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="57" lean-forward="true" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aop-staticMethodPointcutAdvisor/ioc-circularDependencies/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ioc-circularDependencies/src/main/java/com/ioc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ioc-circularDependencies/src/main/java/com/ioc/CircularSpringBootApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aop-annotationAwareAspectJAutoProxyCreator/src/main/java/com/aop/AnnotationSpringBootApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="14" column="119" lean-forward="true" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="119" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ioc-circularDependencies/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ioc-circularDependencies/src/main/java/com/ioc/circular/Service3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ioc-circularDependencies/src/main/java/com/ioc/circular/Service2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ioc-circularDependencies/src/main/java/com/ioc/circular/Service1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ioc-circularDependencies/src/main/java/com/ioc/CircularSpringBootApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="28" column="11" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/zsk/repository/org/springframework/spring-beans/5.0.5.RELEASE/spring-beans-5.0.5.RELEASE-sources.jar!/org/springframework/beans/factory/config/ConfigurableListableBeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/zsk/repository/org/springframework/spring-beans/5.0.5.RELEASE/spring-beans-5.0.5.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="119" column="69" lean-forward="true" selection-start-line="119" selection-start-column="69" selection-end-line="119" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/zsk/repository/org/springframework/spring-beans/5.0.5.RELEASE/spring-beans-5.0.5.RELEASE-sources.jar!/org/springframework/beans/factory/support/FactoryBeanRegistrySupport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="43" column="72" selection-start-line="43" selection-start-column="72" selection-end-line="43" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/zsk/repository/org/springframework/spring-beans/5.0.5.RELEASE/spring-beans-5.0.5.RELEASE-sources.jar!/org/springframework/beans/factory/support/DefaultListableBeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="759" selection-start-line="759" selection-end-line="759" />
+          <folding>
+            <element signature="e#0#67773#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/zsk/repository/org/springframework/spring-beans/5.0.5.RELEASE/spring-beans-5.0.5.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="314" column="42" selection-start-line="314" selection-start-column="42" selection-end-line="314" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/zsk/repository/org/springframework/spring-beans/5.0.5.RELEASE/spring-beans-5.0.5.RELEASE-sources.jar!/org/springframework/beans/factory/support/DefaultSingletonBeanRegistry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="217" column="46" lean-forward="true" selection-start-line="217" selection-start-column="46" selection-end-line="217" selection-end-column="46" />
+          <folding>
+            <element signature="e#7216#7217#0" expanded="true" />
+            <element signature="e#7258#7259#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="Copyright.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>aop-defaultAdvisorAutoProxyCreator-2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
