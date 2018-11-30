@@ -1,6 +1,5 @@
 >微信公众号：吉姆餐厅ak
 学习更多源码知识，欢迎关注。
-
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20181125163800616.jpg)
 
 -------
@@ -24,14 +23,16 @@
 
 
 ## 概述
-AOP(Aspect-Oriented Programming) 面向切面编程。Spring Aop 在 Spring框架中的地位举足轻重，具体优势和场景就不介绍了，本篇主要是对源码进行深度分析。
+AOP(Aspect-Oriented Programming) 面向切面编程。Spring Aop 在 Spring框架中的地位举足轻重，主要用于实现事务、缓存、安全等功能。本篇主要是对源码进行深度分析。
 
---------
+主要介绍以下三个方面：
 
-先来介绍一些核心类。
+- Spring AOP 多种代理机制相关核心类介绍。
+- Spring Boot 中AOP注解方式源码分析。
+- Spring Boot 1.x 版本和 2.x版本 AOP 默认配置的变动。
 
 ------
-## AOP核心类
+## Spring AOP 多种代理机制相关核心类介绍
 先介绍一些Spring Aop中一些核心类，大致分为三类：
 - `advisorCreator`，继承 spring ioc的扩展接口 beanPostProcessor，主要用来扫描获取 advisor。
 - `advisor`：顾问的意思，封装了spring aop中的切点和通知。
@@ -87,8 +88,16 @@ AOP(Aspect-Oriented Programming) 面向切面编程。Spring Aop 在 Spring框�
 
 -----
 
+可以看出 Spring AOP 提供的实现方式很多，但是殊途同归。
 
-## 源码
+具体使用方式已上传至 github：
+https://github.com/admin801122/springboot2-spring5-studying
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20181125225045547.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dvc2hpbGlqaXV5aQ==,size_16,color_FFFFFF,t_70)
+
+----
+
+
+## Spring Boot 中AOP注解方式源码分析
 
 `Spring Aop`使用方式很多，从上面的 API 也可以看出。本篇就基于最常用的注解实现方式，对源码深入分析。
 
@@ -116,9 +125,9 @@ public class LogableAspect {
 ----
 
 **大致流程主要分为三个步骤：
-一： 创建`AnnotationAwareAspectJAutoProxyCreator`对象
-二： 扫描容器中的切面，创建`PointcutAdvisor`对象
-三： 生成代理类**
+1： 创建`AnnotationAwareAspectJAutoProxyCreator`对象
+2： 扫描容器中的切面，创建`PointcutAdvisor`对象
+3： 生成代理类**
 
 ------
 
@@ -126,7 +135,7 @@ public class LogableAspect {
 分别来分析以上三个步骤。
 
 
-##  一： 创建`AnnotationAwareAspectJAutoProxyCreator`对象
+####  1： 创建`AnnotationAwareAspectJAutoProxyCreator`对象
 
 首先来看`AnnotationAwareAspectJAutoProxyCreator`对象初始化的过程。`springboot`中，aop同样以自动装配的方式，所以还是要从`spring.factories`开始：
 ```
@@ -231,7 +240,7 @@ class AspectJAutoProxyRegistrar implements ImportBeanDefinitionRegistrar {
 -----
 
 
-## 二： 扫描容器中的切面，创建`PointcutAdvisor`对象
+#### 2： 扫描容器中的切面，创建`PointcutAdvisor`对象
 
 
 在spring ioc流程加载的过程中，会触发 `beanPostProcessor` 扩展接口，
@@ -479,7 +488,7 @@ public Advice getAdvice(Method candidateAdviceMethod, AspectJExpressionPointcut 
 
 ----
 
-## 三： 生成代理类
+#### 3： 生成代理类
 上面创建`advisor`的逻辑发生在扩展接口中的`postProcessBeforeInstantiation`，实例化之前执行，如果有自定义的`TargetSource`指定类，则则直接生成代理类，并直接执行初始化之后的方法`postProcessAfterInitialization`。这种情况使用不多，常规代理类还是在`postProcessAfterInitialization`中创建，也就是 IOC 最后一个扩展方法。
 ```
 	@Override
@@ -582,11 +591,49 @@ public AopProxy createAopProxy(AdvisedSupport config) throws AopConfigException 
 上述方法通过三个变量来进行筛选代理方法：
 - `optimize`：官方文档翻译为设置代理是否应执行积极的优化，默认为false。
 - `proxyTargetClass`：这个在上面已经提到了，`AopAutoConfiguration`中指定，默认为true，也就是选择使用 cglib 代理。可以看到该变量和`optimize`意义一样，之所以这么做，个人理解是为了可以在不同的场景中使用。
-- `hasNoUserSuppliedProxyInterfaces`：是否指定了代理接口，默认情况下用不到该方法。
+- `hasNoUserSuppliedProxyInterfaces`：是否设置了实现接口。
+
+`hasNoUserSuppliedProxyInterfaces`方法如下：
+```
+private boolean hasNoUserSuppliedProxyInterfaces(AdvisedSupport config) {
+		Class<?>[] ifcs = config.getProxiedInterfaces();
+		return (ifcs.length == 0 || (ifcs.length == 1 && SpringProxy.class.isAssignableFrom(ifcs[0])));
+	}
+```
+主要就是判断`AdvisedSupport`中`interfaces`变量中是否设置了接口，
+
+意思是如果一个类实现了接口，把接口设置到该方法的变量中，但是不是一定会设置到该变量中，具体设置接口的代码如下：
+
+
 
 **可以看到如果用默认配置也就是`proxyTargetClass`为true时，只有一种情况会走jdk代理方法，就是代理类为接口类型（注意：代理类是接口类型，并不是指接口类是否实现了接口）或者代理类是Proxy类型，否则全部走cglib代理。所以，平时使用中，代理类大部分还是用cglib的方式来生成。**
 
 -----
+
+### Spring Boot 1.x 版本和 2.x版本 AOP 默认配置的变动
+配置类`AopAutoConfiguration`：
+
+1.5x版本：
+```
+    @Configuration
+    @EnableAspectJAutoProxy(proxyTargetClass = true)
+    @ConditionalOnProperty(prefix = "spring.aop", name = "proxy-target-class", havingValue = "true", matchIfMissing = false)
+    public static class CglibAutoProxyConfiguration {
+
+    }
+```
+
+2.x版本：
+```
+    @Configuration
+    @EnableAspectJAutoProxy(proxyTargetClass = true)
+    @ConditionalOnProperty(prefix = "spring.aop", name = "proxy-target-class", havingValue = "true", matchIfMissing = true)
+    public static class CglibAutoProxyConfiguration {
+
+    }
+```
+
+可以看到，在SpringBoot2.x中最主要的变化就是`proxy-target-class`默认为true，意味着类代理的时候全部走cglib代理方式，只有为接口代理时才走jdk代理(注意：这里为接口代理，不是指代理目标类是否实现了接口)。所以，在使用springboot2.x的版本中，除了代理目标类是接口外，其余的代理方式全部采用cglib类型。
 
 ## 总结
 
