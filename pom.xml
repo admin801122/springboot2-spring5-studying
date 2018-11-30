@@ -20,6 +20,7 @@
         <module>ioc-circularDependencies</module>
         <module>filterChain</module>
         <module>aop-regexpMethodPointcutAdvisor</module>
+        <module>aop-staticMethodPointcutAdvisor2</module>
     </modules>
 
     <parent>
