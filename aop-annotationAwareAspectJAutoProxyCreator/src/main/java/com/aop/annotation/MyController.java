@@ -15,6 +15,8 @@ public class MyController {
 
     @GetMapping("/ok")
     public Object ok(){
+        System.out.println(myAnnotationService.getClass());
+        myAnnotationService.myAnnotationServiceExecute1();
         myAnnotationService.myAnnotationServiceExecute();
         return "ok";
     }

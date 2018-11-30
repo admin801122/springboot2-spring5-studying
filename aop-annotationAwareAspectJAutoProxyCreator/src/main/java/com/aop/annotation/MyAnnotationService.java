@@ -6,18 +6,18 @@ package com.aop.annotation;
  */
 
 @Service
-public class MyAnnotationService implements Testtttt{
+public class MyAnnotationService{
 
     public MyAnnotationService(){
         System.out.println("init service");
     }
 
-    public void myaaaaaaaat(){
+    @Logable
+    public void myAnnotationServiceExecute(){
         System.out.println("myAnnotationServiceExecute");
     }
 
-    @Logable
-    public void myAnnotationServiceExecute(){
+    public void myAnnotationServiceExecute1(){
         System.out.println("myAnnotationServiceExecute");
     }
 }

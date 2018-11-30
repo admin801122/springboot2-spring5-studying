@@ -18,6 +18,8 @@
         <module>aop-defaultPointcutAdvisor</module>
         <module>aop-annotationAwareAspectJAutoProxyCreator</module>
         <module>ioc-circularDependencies</module>
+        <module>filterChain</module>
+        <module>aop-regexpMethodPointcutAdvisor</module>
     </modules>
 
     <parent>
