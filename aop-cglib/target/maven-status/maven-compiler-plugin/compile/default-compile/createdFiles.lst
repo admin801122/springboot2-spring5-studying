@@ -1,4 +1,0 @@
-com\aop\RealService.class
-com\aop\IRealService.class
-com\aop\MyInvokeHandler.class
-com\aop\MyMethodInterceptor.class

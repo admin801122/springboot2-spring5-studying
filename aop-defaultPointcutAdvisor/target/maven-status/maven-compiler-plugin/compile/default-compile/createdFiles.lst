@@ -1,5 +1,0 @@
-com\aop\MyDefaultAdvisorApplication.class
-com\aop\defaultAdvisor\MyController.class
-com\aop\defaultAdvisor\DefaultAdvisorAutoProxyCreatorConfig.class
-com\aop\defaultAdvisor\MyMethodInterceptor.class
-com\aop\defaultAdvisor\DefaultPointcutAdvisorConfig.class

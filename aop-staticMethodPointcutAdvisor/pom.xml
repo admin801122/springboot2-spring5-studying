@@ -11,9 +11,5 @@
 
     <artifactId>aop-staticMethodPointcutAdvisor</artifactId>
     <packaging>pom</packaging>
-    <modules>
-        <module>ioc-circularDependencies</module>
-    </modules>
-
 
 </project>

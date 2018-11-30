@@ -1,6 +1,0 @@
-com\aop\staticMethod\BeanNameAutoProxyCreatorConfig.class
-com\aop\staticMethod\MyStaticMethodAdvisorConfig.class
-com\aop\staticMethod\MyStaticMethodPointcutAdvisor.class
-com\aop\MyStaticMethodSpringBootApplication.class
-com\aop\staticMethod\MyController.class
-com\aop\staticMethod\MyMethodInterceptor.class
