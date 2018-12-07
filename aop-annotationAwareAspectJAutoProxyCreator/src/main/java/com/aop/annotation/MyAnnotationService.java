@@ -13,6 +13,7 @@ public class MyAnnotationService{
     }
 
     @Logable
+    @Logable2
     public void myAnnotationServiceExecute(){
         System.out.println("myAnnotationServiceExecute");
     }
