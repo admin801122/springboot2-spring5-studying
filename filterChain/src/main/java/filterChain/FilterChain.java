@@ -18,6 +18,15 @@ public class FilterChain {
 
     /**
      *
+     * 递归实现责任链
+     */
+    public FilterChain(MyFilter myFilter) {
+        this.currentFilter = myFilter;
+    }
+
+
+    /**
+     *
      * 模拟 SpringBoot Jetty 中的 fiterChain 责任链实现机制
      */
     public FilterChain(List<MyFilter> filters) {

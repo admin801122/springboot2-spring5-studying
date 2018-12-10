@@ -19,7 +19,9 @@ public class MyFilters{
         @Override
         public void execute(FilterChain filterChain) {
             System.out.println(getName()+"before...");
-            filterChain.doFilter(filterChain);
+            if (null != filterChain) {
+                filterChain.doFilter(filterChain);
+            }
             System.out.println(getName()+"after...");
         }
     }
@@ -34,7 +36,9 @@ public class MyFilters{
         @Override
         public void execute(FilterChain filterChain) {
             System.out.println(getName()+"before...");
-            filterChain.doFilter(filterChain);
+            if (null != filterChain) {
+                filterChain.doFilter(filterChain);
+            }
             System.out.println(getName()+"after...");
         }
     }
@@ -48,7 +52,9 @@ public class MyFilters{
         @Override
         public void execute(FilterChain filterChain) {
             System.out.println(getName()+"before...");
-            filterChain.doFilter(filterChain);
+            if (null != filterChain) {
+                filterChain.doFilter(filterChain);
+            }
             System.out.println(getName()+"after...");
         }
     }

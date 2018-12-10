@@ -9,8 +9,8 @@ public class FilterChainBuilder {
 
     static List<MyFilter> filters;
 
-    public static FilterChain buildFilterChainBuild(List<MyFilter> MyFilters){
-        filters = MyFilters;
+    public static FilterChain buildFilterChainBuild(List<MyFilter> myFilters){
+        filters = myFilters;
         return FilterChainInstanceFactory.FILTER_CHAIN;
     }
 

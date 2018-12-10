@@ -19,9 +19,15 @@ public class FilterChainTest {
         filters.add(myFilter2);
         filters.add(myFilter3);
 
+        List<MyFilter> filters2 = new ArrayList<>(filters);
 
 
         FilterChain filterChain = FilterChainBuilder.buildFilterChainBuild(filters);
         filterChain.doFilter(filterChain);
+
+        System.out.println("--------------------------------------");
+
+        FilterChain filterChain2 = FilterChainBuilder2.buildFilterChain(filters2);
+        filterChain2.doFilter(filterChain2);
     }
 }
