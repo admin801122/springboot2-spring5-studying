@@ -21,18 +21,24 @@
         <module>filterChain</module>
         <module>aop-regexpMethodPointcutAdvisor</module>
         <module>aop-staticMethodPointcutAdvisor2</module>
+        <module>transaction</module>
     </modules>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>2.0.1.RELEASE</version>
+        <!--<version>1.5.9.RELEASE</version>-->
     </parent>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
+        <mysql.version>5.1.40</mysql.version>
+        <mapper.version>3.4.0</mapper.version>
+        <pagehelper.version>4.1.6</pagehelper.version>
+        <druid.version>1.0.27</druid.version>
     </properties>
 
 
@@ -46,6 +52,18 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.springframework.boot</groupId>
+                    <artifactId>spring-boot-starter-tomcat</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-jetty</artifactId>
         </dependency>
 
 
@@ -60,15 +78,19 @@
             <version>1.2.13</version>
         </dependency>
 
-        <!--actuator starter-->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-actuator</artifactId>
-        </dependency>
 
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
+        </dependency>
+
+
+
+
+        <dependency>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+            <version>1.2.17</version>
         </dependency>
 
     </dependencies>

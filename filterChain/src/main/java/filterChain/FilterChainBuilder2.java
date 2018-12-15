@@ -24,5 +24,4 @@ public class FilterChainBuilder2 {
         }
         return filterChain2;
     }
-
 }

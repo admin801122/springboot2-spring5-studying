@@ -5,7 +5,6 @@ package filterChain;
  */
 public class MyFilters{
 
-
     /**
      * 定义三个Myfilter
      *
@@ -58,6 +57,4 @@ public class MyFilters{
             System.out.println(getName()+"after...");
         }
     }
-
-
 }

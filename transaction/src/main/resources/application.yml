@@ -1,0 +1,29 @@
+server:
+  port: 53001
+
+#################################
+## DATASOURCE
+#################################
+
+spring:
+  datasource:
+    url: jdbc:mysql://120.77.219.107:3306/comics?autoReconnect=true&useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true
+    username: tanguo
+    password: 123456
+    driverClassName: com.mysql.jdbc.Driver
+    initialSize: 1
+    maxActive: 30
+    minIdle: 5
+    maxWaite: 600000
+    testOnBorrow: true
+    test-while-idle: true
+
+
+# LOGGING
+logging:
+  level:
+    root: info
+    com:
+      iyb:
+        ak: debug
+

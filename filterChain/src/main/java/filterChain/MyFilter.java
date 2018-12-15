@@ -6,9 +6,6 @@ package filterChain;
 public interface MyFilter {
 
     String getName();
-
-
     void execute(FilterChain filterChain);
-
 
 }

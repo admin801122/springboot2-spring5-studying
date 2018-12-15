@@ -17,5 +17,4 @@ public class FilterChainBuilder {
     private  static class FilterChainInstanceFactory{
         final static FilterChain FILTER_CHAIN = new FilterChain(filters);
     }
-
 }
