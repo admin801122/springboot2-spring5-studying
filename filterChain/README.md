@@ -44,6 +44,7 @@ FilterRegistrationBean，ServletListenerRegistrationBean，DelegatingFilterProxy
 先来看一下该类 uml：
 
 Springboot 1.x 版本：
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20181215125418803.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dvc2hpbGlqaXV5aQ==,size_16,color_FFFFFF,t_70)
 
 Springboot 2.x 版本：
