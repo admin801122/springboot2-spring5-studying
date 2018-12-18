@@ -28,7 +28,6 @@ import java.util.Properties;
 
 @Slf4j
 @Configuration
-@EnableTransactionManagement
 public class MyBatisConfig implements TransactionManagementConfigurer {
 
     @Primary

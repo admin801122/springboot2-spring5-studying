@@ -1,11 +1,13 @@
 package com.transaction.service;
 
 import com.transaction.entity.Comics;
-import com.transaction.mapper.ComicsMapper;
+import com.transaction.entity.SysConfig;
+import com.transaction.mapper.SysConfigMapper;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
+
+import java.util.Date;
 
 /**
  * Created by zhangshukang on 2018/12/11.
@@ -17,23 +19,22 @@ public class TransactionService {
 
 
     @Autowired
-    ComicsMapper comicsMapper;
 
-
+    SysConfigMapper sysConfigMapper;
 
     @Transactional
-    public Object insert(Comics comics){
+    public Object insert(SysConfig entity){
 
-        comics.setId("5");
-        comics.setName("transaction");
-        comics.setCategoryId("222");
-        comics.setRecentChapter("333");
-        comics.setDesciption("admin");
-        comics.setIsEnd("1");
 
-        comicsMapper.insert(comics);
+        SysConfig sysConfig = new SysConfig();
+        sysConfig.setValue("admin");
+        sysConfig.setVariable("admin801122");
+        sysConfig.setSetTime(new Date());
+        sysConfig.setSetBy("1");
+
+        sysConfigMapper.insert(sysConfig);
         int a = 1 / 0;
-        comicsMapper.deleteByPrimaryKey(4);
+        sysConfigMapper.deleteByPrimaryKey(4);
 
         return "ok";
     }

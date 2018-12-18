@@ -7,9 +7,9 @@ server:
 
 spring:
   datasource:
-    url: jdbc:mysql://120.77.219.107:3306/comics?autoReconnect=true&useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true
-    username:
-    password: 123456
+    url: jdbc:mysql://localhost:3306/sys?autoReconnect=true&useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true
+    username: root
+    password: admin
     driverClassName: com.mysql.jdbc.Driver
     initialSize: 1
     maxActive: 30

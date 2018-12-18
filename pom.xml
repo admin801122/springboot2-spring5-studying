@@ -22,6 +22,7 @@
         <module>aop-regexpMethodPointcutAdvisor</module>
         <module>aop-staticMethodPointcutAdvisor2</module>
         <module>transaction</module>
+        <module>ioc-importBeanDefinitionRegistrar</module>
     </modules>
 
     <parent>

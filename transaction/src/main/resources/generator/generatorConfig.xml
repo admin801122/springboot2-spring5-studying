@@ -30,7 +30,7 @@
         <javaClientGenerator targetPackage="${targetMapperPackage}" targetProject="${targetJavaProject}"
                              type="XMLMAPPER"/>
         <!-- 配置表信息 -->
-        <table tableName="yy_comics" domainObjectName="Comics">
+        <table tableName="sys_config" domainObjectName="SysConfig">
         </table>
     </context>
 </generatorConfiguration>
