@@ -16,6 +16,9 @@ import java.util.Set;
 
 /**
  * Created by zhangshukang.
+ *
+ * 自动注册，通过扫描包路径，获取 BeanDefinition
+ *
  */
 public class MyAutoBeanDefinitionRegistrar2 implements ImportBeanDefinitionRegistrar {
 
@@ -23,6 +26,7 @@ public class MyAutoBeanDefinitionRegistrar2 implements ImportBeanDefinitionRegis
     public void registerBeanDefinitions(AnnotationMetadata importingClassMetadata, BeanDefinitionRegistry registry) {
 
         ClassPathScanningCandidateComponentProvider scan = new ClassPathScanningCandidateComponentProvider(false);
+        //指定扫描的类型
         scan.addIncludeFilter(new AssignableTypeFilter(RegistrarComponent.class));
         Set<BeanDefinition> candidateComponents = scan.findCandidateComponents("com.beanDefinition.registrar.component");
 
