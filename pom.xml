@@ -23,6 +23,7 @@
         <module>aop-staticMethodPointcutAdvisor2</module>
         <module>transaction</module>
         <module>ioc-importBeanDefinitionRegistrar</module>
+        <module>ioc-beanPostProcessor</module>
     </modules>
 
     <parent>

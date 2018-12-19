@@ -1,6 +1,5 @@
 package com.transaction.service;
 
-import com.transaction.entity.Comics;
 import com.transaction.entity.SysConfig;
 import com.transaction.mapper.SysConfigMapper;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -25,14 +24,12 @@ public class TransactionService {
     @Transactional
     public Object insert(SysConfig entity){
 
+        entity.setValue("admin");
+        entity.setVariable("admin801122");
+        entity.setSetTime(new Date());
+        entity.setSetBy("1");
 
-        SysConfig sysConfig = new SysConfig();
-        sysConfig.setValue("admin");
-        sysConfig.setVariable("admin801122");
-        sysConfig.setSetTime(new Date());
-        sysConfig.setSetBy("1");
-
-        sysConfigMapper.insert(sysConfig);
+        sysConfigMapper.insert(entity);
         int a = 1 / 0;
         sysConfigMapper.deleteByPrimaryKey(4);
 

@@ -17,8 +17,7 @@ import java.util.Set;
 
 /**
  * Created by zhangshukang.
- * <p>
- * <p>
+ *
  * 高级用法，模拟 FeignClientsRegistrar 注册方式
  */
 public class MyAutoBeanDefinitionRegistrar3 implements ImportBeanDefinitionRegistrar, BeanClassLoaderAware {
