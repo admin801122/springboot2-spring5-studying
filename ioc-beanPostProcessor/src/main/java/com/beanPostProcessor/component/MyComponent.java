@@ -1,4 +1,4 @@
-package com.beanPostProcessor;
+package com.beanPostProcessor.component;
 
 import org.springframework.stereotype.Component;
 
@@ -8,6 +8,12 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class MyComponent {
+
+
+    static {
+        System.out.println("myComponent init...");
+    }
+
 
     private String creator;
 

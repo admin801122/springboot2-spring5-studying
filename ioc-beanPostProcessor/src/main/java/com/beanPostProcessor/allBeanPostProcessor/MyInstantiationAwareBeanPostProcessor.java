@@ -1,5 +1,6 @@
-package com.beanPostProcessor;
+package com.beanPostProcessor.allBeanPostProcessor;
 
+import com.beanPostProcessor.component.MyComponent;
 import org.springframework.beans.BeansException;
 import org.springframework.beans.MutablePropertyValues;
 import org.springframework.beans.PropertyValue;

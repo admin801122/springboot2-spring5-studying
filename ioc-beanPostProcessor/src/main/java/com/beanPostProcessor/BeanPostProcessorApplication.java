@@ -1,5 +1,6 @@
 package com.beanPostProcessor;
 
+import com.beanPostProcessor.component.MyComponent;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
