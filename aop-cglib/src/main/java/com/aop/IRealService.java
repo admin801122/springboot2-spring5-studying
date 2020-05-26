@@ -5,5 +5,5 @@ package com.aop;
  */
 public interface IRealService {
 
-    public void realMethod();
+    public void realMethod();   
 }   
