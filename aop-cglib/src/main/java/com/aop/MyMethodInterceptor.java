@@ -4,6 +4,7 @@ import org.springframework.cglib.core.DebuggingClassWriter;
 import org.springframework.cglib.proxy.Enhancer;
 import org.springframework.cglib.proxy.MethodInterceptor;
 import org.springframework.cglib.proxy.MethodProxy;
+import sun.misc.Launcher;
 
 import java.lang.reflect.Method;
 
@@ -13,6 +14,15 @@ import java.lang.reflect.Method;
 public class MyMethodInterceptor implements MethodInterceptor {
 
     public static void main(String[] args) {
+        System.out.println(Launcher.class.getClassLoader());
+        System.out.println(ClassLoader.getSystemClassLoader());
+
+
+        try {
+            Thread.sleep(500);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
 
         System.setProperty(DebuggingClassWriter.DEBUG_LOCATION_PROPERTY, "D:\\code");
         Enhancer enhancer = new Enhancer();
