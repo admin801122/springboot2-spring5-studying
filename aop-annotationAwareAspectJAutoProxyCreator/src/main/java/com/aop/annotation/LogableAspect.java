@@ -17,6 +17,8 @@ public class LogableAspect {
     @Around("aspect()")
     public Object doAround(ProceedingJoinPoint point) throws Throwable {
 
+        Object target = point.getTarget();
+
         System.out.println("doAround before...");
 
         Object returnValue =  point.proceed(point.getArgs());

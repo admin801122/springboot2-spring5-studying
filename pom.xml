@@ -24,6 +24,8 @@
         <module>transaction</module>
         <module>ioc-importBeanDefinitionRegistrar</module>
         <module>ioc-beanPostProcessor</module>
+        <module>design-pattern</module>
+        <module>mixed</module>
     </modules>
 
     <parent>
